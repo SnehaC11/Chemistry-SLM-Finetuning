@@ -23,10 +23,10 @@ Gemma3 (fine-tuned)	  0.83					12.73
 Phi-2 outperformed Gemma3 on both metrics after fine-tuning — a higher F1 score (better alignment with reference answers) and a substantially lower perplexity (more confident, fluent generations). This suggests Phi-2 adapted more effectively to the chemistry QA domain under LoRA fine-tuning with this dataset size.
 
 Tech Stack:
-•	Models: Microsoft Phi-2, Google Gemma3
-•	Fine-tuning: LoRA (parameter-efficient fine-tuning / PEFT)
-•	Frameworks: PyTorch, Hugging Face Transformers, PEFT
-•	Evaluation: F1 Score, Perplexity
+1.	Models — Microsoft Phi-2, Google Gemma3
+2.	Fine-tuning — LoRA (parameter-efficient fine-tuning / PEFT)
+3.	Frameworks — PyTorch, Hugging Face Transformers, PEFT
+4.	Evaluation — F1 Score, Perplexity
 
 # Open phi-2.ipynb or gemma-3.ipynb to run fine-tuning, and metrics.ipynb to reproduce the evaluation.
 
