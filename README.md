@@ -17,9 +17,14 @@ Methodology:
 4.	Comparison — Aggregated metrics across both models to identify which architecture adapted better to the domain.
 
 Results:
-Model	                F1 Score			Perplexity
-Phi-2 (fine-tuned)	  0.90					2.68
-Gemma3 (fine-tuned)	  0.83					12.73
+Phi-2 (fine-tuned)
+i.	F1 Score — 0.90
+ii.	Perplexity — 2.68
+
+Gemma3 (fine-tuned)
+i.	F1 Score — 0.83
+ii.	Perplexity — 12.73
+
 Phi-2 outperformed Gemma3 on both metrics after fine-tuning — a higher F1 score (better alignment with reference answers) and a substantially lower perplexity (more confident, fluent generations). This suggests Phi-2 adapted more effectively to the chemistry QA domain under LoRA fine-tuning with this dataset size.
 
 Tech Stack:
